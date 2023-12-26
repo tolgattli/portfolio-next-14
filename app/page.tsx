@@ -1,5 +1,10 @@
+import Navbar from "@/components/Navbar";
 import React from "react";
+// ana sayfa olacak..
 
 export default function Home() {
-  return <div>Hello dud..</div>;
+  
+  return <div>
+    {/* <Navbar /> */}
+  </div>;
 }
