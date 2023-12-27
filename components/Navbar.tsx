@@ -29,7 +29,6 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      {/* orta kısım burası olacak.. */}
       <div className="m-0 flex items-center justify-center gap-9  p-0">
         {navRoutes.map((item, index) => (
           <div key={index}>

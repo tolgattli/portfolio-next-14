@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import "../styles/globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
+import BottomNavbar from "@/components/BottomNavbar";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function RootLayout({
           <main className="my-12 flex w-10/12 items-center justify-center">
             {children}
           </main>
+          <BottomNavbar />
         </ThemeProvider>
       </body>
     </html>
