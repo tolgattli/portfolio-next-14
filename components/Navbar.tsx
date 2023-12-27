@@ -37,7 +37,7 @@ const Navbar = () => {
               <Button
                 variant="ghost"
                 size={"default"}
-                className={`px-4 py-5 font-sans text-lg font-semibold ${router === item.url ? "border-2 border-black dark:border-white" : ""}
+                className={`transition-none delay-0 px-4 py-5 font-sans text-md font-semibold ${router === item.url ? "border-2 border-black dark:border-white" : ""}
           `}
               >
                 {item.name}
