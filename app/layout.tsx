@@ -35,7 +35,9 @@ export default function RootLayout({
           enableColorScheme
         >
           <Navbar />
-          <main className="w-10/12">{children}</main>
+          <main className="my-12 flex w-10/12 items-center justify-center">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>
